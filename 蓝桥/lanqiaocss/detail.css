@@ -1,0 +1,45 @@
+@charset "utf-8";
+.w1170{margin:0 auto;width:1170px;}
+.nav{height: 94px;line-height:94px;box-shadow: 0 0 10px #ddd;width:100%;background:#fff}
+.nav .logo{width:169px;margin-left:10px;}
+.nav ul{overflow: hidden;margin-left:80px;float:left;}
+.nav ul li{float:left;padding:0 20px;font-size: 18px;}
+.nav ul li a{display: inline-block;color: #000;}
+.nav ul li a:hover,.nav ul li a.act{color:#32b3ed;}
+.nav ul li a:before{display:inline-block;border-color: transparent  transparent transparent #fff;border-style: solid;border-width:7px; content: "";height: 0;vertical-align: middle;margin-top:-2px;}
+.nav ul li a:hover:before,.nav ul li a.act:before{border-color: transparent  transparent transparent #32b3ed;}
+.maintop{padding-top:40px;color:#b1b1b1 ;font-size: 14px;}
+.maintop p a{color:#b1b1b1;padding:0 5px;}
+.maintop p a:hover{text-decoration:underline;}
+.d-title{font-size: 30px;color:#383838;padding:25px 0 40px 0;}
+.maintop .date{padding-bottom: 12px;}
+.d-content{padding:40px 0;line-height: 34px;font-size: 18px;color:#666;text-indent: 2em;border:1px solid #a6a6a6;border-left:0;border-right:0}
+.aboutnews{padding:20px 0 50px 0;font-size:16px;}
+.aboutnews a{color:#136ce4;}
+.aboutnews a:hover{text-decoration: underline;}
+.c-blue{color:#49a0e6}
+.fs12{font-size:12px;}
+/*新闻列表*/
+.hotNews{margin-top:60px;}
+.hot-detail{float:left;margin-left:46px;width:628px;}
+.hot-detail h4{font-size:28px;line-height: 36px;height: 120px;}
+.hotNews .short-info{line-height:26px ;color:#666;font-size:14px;height:180px;text-align:justify;text-justify:inter-word;}
+.hotNews .more a{color:#49a0e6;}
+.hotNews .more span{color:#a0a0a0;}
+.newsList{margin-top:68px;}
+.newsList li{float:left;margin-right:20px;margin-bottom:20px;padding:15px 20px;width:535px;height:85px;background:#fff;border-radius:4px;}
+.newsList li .list-info{margin-left:20px;padding-top:10px;width:250px;font-size: 14px;color: #131418;line-height:20px;}
+.newsList li .list-info p{height:40px;overflow:hidden;margin-bottom:5px;}
+.newsList li .list-info p a{color:#131418}
+.showDate{line-height: 85px;text-align:right;display: inline-block;color:#999}
+.newsList li:nth-child(2n){margin-right:0;}
+.newsList li:hover{box-shadow:0  8px 8px #eee;}
+.newsList li .all{width:420px !important;margin-left:0;}
+
+/*分页*/
+.pager{padding:40px 0 60px 0;text-align: center;}
+.pager a{border:2px solid #dcdcdc;border-radius:4px;display: inline-block;padding:6px 12px;font-size: 14px;margin:0 5px;color:#999;}
+.pager span{border:2px solid #dcdcdc;border-radius:4px;display: inline-block;padding:6px 12px;font-size: 14px;margin:0 5px;color:#999;}
+.pager a.current,.pager a:hover{border-color:#0081ff;color:#0081ff;}
+.pager span.current,.pager span:hover{border-color:#0081ff;color:#0081ff;}
+.pager a.disabled:hover{cursor:no-drop;border-color:#dcdcdc;color:#999;}
